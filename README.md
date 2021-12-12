@@ -1,4 +1,8 @@
-# Web-Design-Challenge - Web Visualization Dashboard
+# Web-Design-Challenge 
+
+![HTML_scaled.jpeg](hhttps://github.com/PeiDay/Web-Design-Challenge/blob/main/Resources/assets/HTML_scaled.jpeg)
+
+## Web Visualization Dashboard
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
