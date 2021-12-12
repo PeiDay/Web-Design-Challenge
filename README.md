@@ -1,6 +1,6 @@
 # Web-Design-Challenge 
 
-![HTML_scaled.jpeg](hhttps://github.com/PeiDay/Web-Design-Challenge/blob/main/Resources/assets/HTML_scaled.jpeg)
+![HTML_scaled.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Resources/assets/HTML_scaled.jpeg)
 
 ## Web Visualization Dashboard
 
