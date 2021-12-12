@@ -4,7 +4,7 @@
 
 ## Web Visualization Dashboard
 
-Completed Weather Dashboard can be found at 
+Weather Dashboard webpage: https://peiday.github.io/Web-Design-Challenge/index.html
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
@@ -16,21 +16,21 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 The website must consist of 7 pages total, including:
 
-* A **[landing page](#landing-page)** containing:
+* A **[landing page](#Visualizations/pages/landing_lg)** containing:
   * An explanation of the project.
   * Links to each visualizations page with a sidebar containing preview images of each plot, and clicking an image would take you to that visualization.
 
-* Four **[visualization pages](#visualization-pages)**, each with:
+* Four **[visualization pages](#Visualizations/pages)**, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison with a paragraph describing the plot and its significance.
 
-* A **["Comparisons" page](#comparisons-page)** that:
+* A **["Comparisons" page](#Visualizations/pages/comparison_lg)** that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
 
-* A **["Data" page](#data-page)** that:
+* A **["Data" page](#Visualizations/pages/data_lg)** that:
   * Displays a responsive table containing the data used in the visualizations.
     * The table is a bootstrap table component.
     * The data came from exporting the `weatherpy_cities.csv` file as HTML, or converting it to HTML with Pandas `to_html` that allows us to generate a HTML table from a pandas dataframe. 
 
-### Tools used: HTML, CSS, Pandas, JupyterNotbook
+#### Tools used: HTML, CSS, Pandas, JupyterNotbook

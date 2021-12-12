@@ -14,7 +14,7 @@
     crossorigin="anonymous"></script>
   
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <title>Wind Speed</title>
+    <title>Comparison</title>
 </head>
 <body>
     <div class="navigation">
@@ -42,7 +42,7 @@
                     </li>
     
                     <li class="nav-item">
-                        <a class="nav-link" href="../Visualizations/comparisons.html">COMPARISON</a>
+                        <a class="nav-link" href="../Visualizations/comparison.html">COMPARISON</a>
                     </li>
     
                     <li class="nav-item">
@@ -56,66 +56,52 @@
             </div>
         </nav>
     </div>
-
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="box">
-                    <h4 class="title">LATITUDE VS. WIND SPEED</h4>
-                    <hr>
-                    <img src="../Resources/assets/Temp.png" class="vizualization rounded float-left" 
-                    alt="Wind Graph">
-                    <p>Wind speed is generally between 0 and 15mph regardless of latitude, with some few points beyond that range.
-                    The highest recorded wind speed of about 50mph.<br><br><br><br><br></p>
-                </div>
-            </div>
-
-            <div class="col-lg-5 col-md-12">
-                <div class="box">
-                    <h4 class="title">VISUALIZATIONS</h4>
-                    <hr>
-
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 70px;">
-                            <div class="col-6">
-                                <div class="title">Latitude vs. <br> Max Temperature</div>
-                                <a href="temperature.html">
-                                  <img class="panel" src="../Resources/assets/Temp.png" 
-                                  alt="Max Temperature Graph">
-                                </a>
-                            </div>
-
-                            <div class="col-6">
-                                <div class="title">Latitude vs. <br> Humidity</div>
-                                <a href="humidity.html">
-                                    <img class="panel" src="../Resources/assets/Humid.png" 
-                                    alt="Humidity Graph">
-                                </a>
-                            </div>
+            <div class="box">
+                <h4 class="title">COMPARISON: LATITUDE VS. X</h4>
+                <hr>
+                <p>Click any plot below to get an in-depth analysis</p>
+                <div class="container" style="padding-bottom: 10px;">
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Max Temperature</div>
+                            <a href="temperature.html">
+                                <img class="panel" src="../Resources/assets/Temp.png" 
+                                alt="Max Temperature Graph">
+                            </a>
                         </div>
 
-                        <div class="row" style="padding-bottom: 70px;">
-                            <div class="col-6">
-                                <div class="title">Latitude vs. <br> Cloudiness</div>
-                                <a href="cloudiness.html">
-                                    <img class="panel" src="../Resources/assets/Cloud.png" 
-                                    alt="Cloudiness Graph">
-                                </a>
-                            </div>
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Humidity</div>
+                            <a href="humidity.html">
+                                <img class="panel" src="../Resources/assets/Humid.png" 
+                                alt="Humidity Graph">
+                            </a>
+                        </div>
+                    </div>
 
-                            <div class="col-6">
-                                <div class="title">Latitude vs. <br> Wind Speed</div>
-                                <a href="wind.html">
-                                    <img class="panel" src="../Resources/assets/Wind.png" 
-                                    alt="Wind Speed Graph">
-                                </a>
-                            </div>
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Cloudiness</div>
+                            <a href="cloudiness.html">
+                                <img class="panel" src="../Resources/assets/Cloud.png" 
+                                alt="Cloudiness Graph">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-6" style="padding-bottom: 30px;">
+                            <div class="title">vs. Wind Speed</div>
+                            <a href="wind.html">
+                                <img class="panel" src="../Resources/assets/Wind.png" 
+                                alt="Wind Speed Graph">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer>Wind Speed - Copyright © PeiDay 2021</footer>
+    <footer>Comparison - Copyright © PeiDay 2021</footer>
 </body>
 </html>
