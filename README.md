@@ -19,27 +19,27 @@ The website must consist of 7 pages total, including:
 * A **[landing page](#Visualizations/pages/landing_lg)** containing:
   * An explanation of the project.
   * Links to each visualizations page with a sidebar containing preview images of each plot, and clicking an image would take you to that visualization.
-![landing_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/landing_lg.png)
+![landing_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/landing_lg.jpeg)
 
 * Four **[visualization pages](#Visualizations/pages)**, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison with a paragraph describing the plot and its significance.
-![temp_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/temp_lg.png)
-![humid_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/humid_lg.png)
-![cloud_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/cloud_lg.png)
-![wind_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/wind_lg.png)
+![temp_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/temp_lg.jpeg)
+![humid_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/humid_lg.jpeg)
+![cloud_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/cloud_lg.jpeg)
+![wind_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/wind_lg.jpeg)
 
 * A **["Comparisons" page](#Visualizations/pages/comparison_lg)** that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
-![comparison_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/comparison_lg.png)
+![comparison_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/comparison_lg.jpeg)
 
 * A **["Data" page](#Visualizations/pages/data_lg)** that:
   * Displays a responsive table containing the data used in the visualizations.
     * The table is a bootstrap table component.
     * The data came from exporting the `weatherpy_cities.csv` file as HTML, or converting it to HTML with Pandas `to_html` that allows us to generate a HTML table from a pandas dataframe. 
-![data_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/data_lg.png)
+![data_lg.jpeg](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/data_lg.jpeg)
 
-#### Weather Dashboard works at all window widths/sizesa
+#### Weather Dashboard works at all window widths/sizes
 
 #### Tools used: HTML, CSS, Pandas, JupyterNotbook
