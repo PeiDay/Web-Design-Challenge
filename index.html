@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Weather Dashboard</title>
 </head>
-<body>
+<body style="padding-top: 50px">
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html"> LATITUDE </a>
@@ -56,12 +56,12 @@
     </nav>
 </div>
 <div class="container">
-  <div class="row">
+  <div class="row align-items-start">
       <div class="col-lg-7 col-md-12">
           <div class="box" style="padding-bottom: 20px;">
               <h4 class="title">SUMMARY: WEATHER PLOTS <br> (LATITUDE VS. X)</h4>
               <hr>
-              <img src="Resources/assets/Temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+              <img src="Resources/assets/Temp.png" alt="Max Temperature Graph" id="description-image">
               <p> The purpose of this project was to analyze how weather across 500+ cities across the world
                 changes as you get closer to the equator. To accomplish this analysis, OpenWeatherMap API was
                 utilized to assemble the dataset to create a representative model of weather across world cities.</p>
@@ -103,7 +103,7 @@
                           <a href="Visualizations/cloudiness.html">
                           <img class="panel" src="Resources/assets/Cloud.png" alt="Cloudiness Graph">
                           </a>
-                          <!-- <div class="title">vs. Cloudiness</div> -->
+
                       </div>
                       <div class="col-6">
                           <div class="title">Latitude vs. <br> Wind Speed</div>

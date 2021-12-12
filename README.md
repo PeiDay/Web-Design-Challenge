@@ -19,6 +19,7 @@ The website must consist of 7 pages total, including:
 * A **[landing page](#Visualizations/pages/landing_lg)** containing:
   * An explanation of the project.
   * Links to each visualizations page with a sidebar containing preview images of each plot, and clicking an image would take you to that visualization.
+  ![landing_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/landing_lg.png)
 
 * Four **[visualization pages](#Visualizations/pages)**, each with:
   * A descriptive title and heading tag.
@@ -27,6 +28,7 @@ The website must consist of 7 pages total, including:
 * A **["Comparisons" page](#Visualizations/pages/comparison_lg)** that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
+  ![comparison_lg.png](https://github.com/PeiDay/Web-Design-Challenge/blob/main/Visualizations/pages/comparison_lg.png)
 
 * A **["Data" page](#Visualizations/pages/data_lg)** that:
   * Displays a responsive table containing the data used in the visualizations.
