@@ -19,29 +19,40 @@
 <body>
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="background-color: rgb(255,255,255);" href="../index.html">LATITUDE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" style="background-color: rgb(255,255,255);" 
+        href="../index.html">LATITUDE</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+        aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+                    role="button" data-bs-toggle="dropdown" aria-haspopup="true" 
+                    aria-expanded="false">
                         PLOTS
                     </a>
+
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="temperature.html">Max Temperature</a>
                         <a class="dropdown-item" href="humidity.html">Humidity</a>
                         <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                         <a class="dropdown-item" href="wind.html">Wind Speed</a>
                     </div>
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="comparison.html">COMPARISON</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="data.html">DATA</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/PeiDay/Web-Design-Challenge">REPO</a>
                 </li>
@@ -49,18 +60,21 @@
         </div>
     </nav>
 </div>
+
 <div class="container">
     <div class="row">
         <div class="col-lg-7 col-md-12">
             <div class="box">
-                <h3 class="title">LATITIDE VS. MAX TEMPERATURE</h3>
+                <h4 class="title">LATITIDE VS. MAX TEMPERATURE</h4>
                 <hr>
-                <img src="../Resources/assets/Temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+                <img src="../Resources/assets/Temp.png" class="vizualization rounded float-left" 
+                alt="Max Temperature Graph">
                 <p>There is a correlation between latitude and temperature. As one approaches the equator, which is represented by 0 Degrees Latitude,
                 the temperature becomes significantly warmer. However, the weather peaks at -20 Degrees Latitude, rather than at 0 Degrees Latitude, 
                 which may be due to obliquity, which is the angle of tilt of the Earth's axis of rotation.</p>
             </div>
         </div>
+
         <div class="col-lg-5 col-md-12">
             <div class="box">
                 <h4 class="title">VISUALIZATIONS</h4>
@@ -68,29 +82,36 @@
                 <div class="container">
                     <div class="row" style="padding-bottom: 70px;">
                         <div class="col-6">
-                            <div class="title">Latitude vs. Max Temperature</div>
+                            <div class="title">Latitude vs. <br> Max Temperature</div>
                             <a href="temperature.html">
-                              <img class="panel" src="../Resources/assets/Temp.png" alt="Max Temperature Graph">
+                              <img class="panel" src="../Resources/assets/Temp.png" 
+                              alt="Max Temperature Graph">
                             </a>
                         </div>
+
                         <div class="col-6">
-                            <div class="title">Latitude vs. Humidity</div>
+                            <div class="title">Latitude vs. <br> Humidity</div>
                             <a href="humidity.html">
-                                <img class="panel" src="../Resources/assets/Humid.png" alt="Humidity Graph">
+                                <img class="panel" src="../Resources/assets/Humid.png" 
+                                alt="Humidity Graph">
                             </a>
                         </div>
                     </div>
+
                     <div class="row" style="padding-bottom: 70px;">
                         <div class="col-6">
-                            <div class="title">Latitude vs. Cloudiness</div>
+                            <div class="title">Latitude vs. <br> Cloudiness</div>
                             <a href="cloudiness.html">
-                                <img class="panel" src="../Resources/assets/Cloud.png" alt="Cloudiness Graph">
+                                <img class="panel" src="../Resources/assets/Cloud.png" 
+                                alt="Cloudiness Graph">
                             </a>
                         </div>
+
                         <div class="col-6">
-                            <div class="title">Latitude vs. Wind Speed</div>
+                            <div class="title">Latitude vs. <br> Wind Speed</div>
                             <a href="wind.html">
-                                <img class="panel" src="../Resources/assets/Wind.png" alt="Wind Speed Graph">
+                                <img class="panel" src="../Resources/assets/Wind.png" 
+                                alt="Wind Speed Graph">
                             </a>
                         </div>
                     </div>
@@ -99,6 +120,6 @@
         </div>
     </div>
 </div>
-<footer>Max Temperature - PeiDay</footer>
+<footer>Max Temperature - Copyright © PeiDay 2021</footer>
 </body>
 </html>
