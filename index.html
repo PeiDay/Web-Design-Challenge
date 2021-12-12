@@ -17,29 +17,23 @@
   <title>Weather Dashboard</title>
 </head>
 <body>
-
-<!-- content - Padding - Border - Margin -->
-
-  <!-- start of header -->
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="background-color: rgb(255, 255, 255);" 
-        href="index.html"> LATITUDE </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-        data-target="#navbarNavDropdown" 
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand" href="index.html"> LATITUDE </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
                     role="button" data-bs-toggle="dropdown" aria-haspopup="true" 
                     aria-expanded="false"> PLOTS </a>
 
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Visualizations/temperature.html">Max Temperature</a>
                         <a class="dropdown-item" href="Visualizations/humidity.html">Humidity</a>
                         <a class="dropdown-item" href="Visualizations/cloudiness.html">Cloudiness</a>

@@ -8,7 +8,7 @@ Completed Weather Dashboard can be found at
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-We'll be creating a visualization dashboard website using visualizations we've created in **[Python-API-Challenge/WeatherPy/](#https://github.com/PeiDay/Python-API-Challenge/blob/main/WeatherPy/weatherpy_cities.csv)**.  Specifically, we'll be plotting [weather data](Resources/weatherpy_cities.csv).
+We'll be creating a visualization dashboard website using visualizations we've created in **Python-API-Challenge/WeatherPy**.  Specifically, we'll be plotting [weather data](Resources/weatherpy_cities.csv).
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page (`index.html`), a page where we can see a comparison of all of the plots, and another `data.html` page where we can view the data used to build them.
 
